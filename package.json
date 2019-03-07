@@ -1,0 +1,26 @@
+{
+  "name": "hns-wallet",
+  "version": "1.0.0",
+  "description": "A handshake wallet written in TypeScript using Electron",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "repository": "https://github.com/Urkelio/electron-quick-start-typescript",
+  "keywords": [
+    "HNS",
+    "wallet",
+    "crypto",
+    "Electron",
+    "typescript"
+  ],
+  "author": "GitHub",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.2",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}
